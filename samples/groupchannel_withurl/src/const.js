@@ -1,9 +1,14 @@
-// put your own APP_ID here
-// get your app_id -> https://dashboard.sendbird.com/auth/signin
-export const APP_ID = ''
-// set your own USER_ID and NICKNAME
-export const USER_ID = 'sendbirdian-200720'
-export const NICKNAME = 'Sendbirdian84'
+// Set TADA sendbird app id
+export const APP_ID = '<APP_ID>'
+
+// Set ride.rider_info.phone ex) +6500000000
+export const USER_ID = '<PHONE_NUMBER>'
+
+// Set nickname - not important
+export const NICKNAME = 'Me'
+
+// Set ride.chat_url ex) sendbird_group_channel_000000000_blahblahblahblahblah00000000000000000000
+export const CHAT_URL='<CHAT_URL>'
 
 export default {
   APP_ID,
